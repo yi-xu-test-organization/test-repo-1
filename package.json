@@ -1,0 +1,31 @@
+{
+  "name": "test-repo",
+  "version": "0.1.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard-version": {
+    "skip": {
+      "commit": true,
+      "tag": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-Xu-0100/test-repo.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "yi_Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yi-Xu-0100/test-repo/issues"
+  },
+  "homepage": "https://github.com/yi-Xu-0100/test-repo#readme",
+  "devDependencies": {
+    "standard-version": "^9.1.0"
+  }
+}
